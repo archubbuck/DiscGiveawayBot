@@ -1,0 +1,16 @@
+
+Download and install Node.js:
+https://nodejs.org/download/release/v18.2.0/node-v18.2.0-x64.msi
+
+Edit the settings.json file:
+token = the login token for your Discord account (this is a number, not your password)
+ownerId = the id associated with your Discord account (this is a number, not something like Ries#2132)
+channelIdToMonitor = the id associated with the channel you want to monitor (this is a number)
+
+Open the Command Prompt and run the following commands:
+npm install -g npx
+npx ts-node .\src\index.ts --settings .\settings.json
+
+???
+
+profit
